@@ -1,125 +1,154 @@
-/*****************************
-* Variables and data types
-*/
-/*
-var firstName = 'John';
-console.log(firstName);
+// /*****************************
+// * Variables and data types
+// convention to name varibles 
+//     camel case 
+//     Don't name varibles that start just withn 
+//        numbers
+//        symbols
 
-var lastName = 'Smith';
-var age = 28;
-
-var fullAge = true;
-console.log(fullAge);
-
-var job;
-console.log(job);
-
-job = 'Teacher';
-console.log(job);
-
-// Variable naming rules
-var _3years = 3;
-var johnMark = 'John and MArk';
-var if = 23;
-*/
+// */
+ 
+// // var firstName = 'John';
+// // console.log(firstName);
 
 
+// // var fullAge = true;
+// // console.log(fullAge);
 
-/*****************************
-* Variable mutation and type coercion
-*/
-/*
-var firstName = 'John';
-var age = 28;
+// // /*
+// // declared a varibale but not assigned will print undefined
+// // */
+// // var job;
+// // console.log(job);
 
-// Type coercion
-console.log(firstName + ' ' + age);
+// // job = "Teacher";
+// // console.log(job);
 
-var job, isMarried;
-job = 'teacher';
-isMarried = false;
+// // // var job;
+// // // console.log(job);
 
-console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+// // // job = 'Teacher';
+// // // console.log(job);
 
-// Variable mutation
-age = 'twenty eight';
-job = 'driver';
-
-alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
-
-var lastName = prompt('What is his last Name?');
-console.log(firstName + ' ' + lastName);
-*/
+// // Variable naming rules
+// // var _3years = 3;
+// // var johnMark = 'John and MArk';
+// // var if = 23;
+// // */
 
 
 
-/*****************************
-* Basic operators
-*/
-/*
-var year, yearJohn, yearMark;
-now = 2018;
-ageJohn = 28;
-ageMark = 33;
+// /*****************************
+// *  Variable mutation and type coercion
+// */
 
-// Math operators
-yearJohn = now - ageJohn;
-yeahMark = now - ageMark;
-
-console.log(yearJohn);
-
-console.log(now + 2);
-console.log(now * 2);
-console.log(now / 10);
+// var firstName = 'John';
+// var age = 28;
+// console.log(firstName + ' ' + age);
 
 
-// Logical operators
-var johnOlder = ageJohn < ageMark;
-console.log(johnOlder);
+// // Type coercion
+
+// var job, isMarried;
+// job = "teacher";
+// isMarried = "false";
+
+//  console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+// // Variable mutation
+
+// // age = 'twenty eight';
+// // job = 'driver';
+
+// // alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+// // // var lastName = prompt('What is his last Name?');
+// // console.log(firstName + ' ' + lastName);
+
+// // var lastName = prompt ('Whats your name?')
+// // console.log(lastName);
 
 
-// typeof operator
-console.log(typeof johnOlder);
-console.log(typeof ageJohn);
-console.log(typeof 'Mark is older tha John');
-var x;
-console.log(typeof x);
-*/
+// // /*****************************
+// // * Basic operators
+// // */
+
+// // var year, yearJohn, yearMark;
+// // now = 2018;
+// // ageJohn = 28;
+// // ageMark = 33;
+
+// // // Math operators
+
+// // yearJohn = now - ageJohn;
+// // yeahMark = now - ageMark;
+
+// // console.log(yearJohn);
+
+// // console.log(now + 2);
+// // console.log(now * 2);
+// // console.log(now / 10);
+
+
+// // // Logical operators
+// // var johnOlder = ageJohn < ageMark;
+// // console.log(johnOlder);
+
+
+// // // typeof operator tells us the type of the varibale 
+// // console.log(typeof johnOlder);
+// // console.log(typeof johnOlder);
+// // console.log(typeof ageJohn);
+// // console.log(typeof 'Mark is older tha John');
+// // var x;
+// // console.log(typeof x);
 
 
 
-/*****************************
-* Operator precedence
-*/
-/*
-var now = 2018;
-var yearJohn = 1989;
-var fullAge = 18;
 
-// Multiple operators
-var isFullAge = now - yearJohn >= fullAge; // true
-console.log(isFullAge);
+// // /*****************************
+// // * Operator precedence
+// // */
 
-// Grouping
-var ageJohn = now - yearJohn;
-var ageMark = 35;
-var average = (ageJohn + ageMark) / 2;
-console.log(average);
+// // var now = 2018;
+// // var yearJohn = 1989;
+// // var fullAge = 18;
 
-// Multiple assignments
-var x, y;
-x = y = (3 + 5) * 4 - 6; // 8 * 4 - 6 // 32 - 6 // 26
-console.log(x, y);
+// // //  Multiple operators
 
 
-// More operators
-x *= 2;
-console.log(x);
-x += 10;
-console.log(x);
-x--;
-console.log(x);
-*/
+// // var isFullAge = now - yearJohn >= fullAge; // true
+// // console.log(isFullAge);
+
+// // // Grouping for higher precedence
+
+// // // var ageJohn = now -yearJohn;
+// // // var ageMark =35;
+// // // var average = (ageJohn + ageMark) / 2;
+
+// // // var ageJohn = now - yearJohn;
+// // // var ageMark = 35;
+// // // var average = (ageJohn + ageMark) / 2;
+// // // console.log(average);
+
+// // // Multiple assignments
+
+// var x, y;
+// x = y = (3 + 5) * 4 - 6; // 8 * 4 - 6 // 32 - 6 // 26
+// console.log(x, y);
+
+
+// // More operators
+
+// x *= 2;
+
+// x *= 2;
+// console.log(x);
+// x += 10;
+// console.log(x);
+// x--;
+// console.log(x);
+
 
 
 
@@ -127,17 +156,23 @@ console.log(x);
 * CODING CHALLENGE 1
 */
 
-/*
-Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height^2 = mass / (height * height). (mass in kg and height in meter).
 
-1. Store Mark's and John's mass and height in variables
-2. Calculate both their BMIs
-3. Create a boolean variable containing information about whether Mark has a higher BMI than John.
-4. Print a string to the console containing the variable from step 3. (Something like "Is Mark's BMI higher than John's? true"). 
+// Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height^2 = mass / (height * height). (mass in kg and height in meter).
 
-GOOD LUCK 😀
-*/
-/*
+// 1. Store Mark's and John's mass and height in variables
+// 2. Calculate both their BMIs
+// 3. Create a boolean variable containing information about whether Mark has a higher BMI than John.
+// 4. Print a string to the console containing the variable from step 3. (Something like "Is Mark's BMI higher than John's? true"). 
+
+// GOOD LUCK 😀
+
+
+var massMark = 78;
+var heightMark = 1.69;
+
+var massJohn = 92;
+var heighJohn = 1.95;
+
 var massMark = 78; // kg
 var heightMark = 1.69; // meters
 
@@ -146,11 +181,17 @@ var heightJohn = 1.95;
 
 var BMIMark = massMark / (heightMark * heightMark);
 var BMIJohn = massJohn / (heightJohn * heightJohn);
+
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIMark, BMIJohn);
 
 var markHigherBMI = BMIMark > BMIJohn;
+console.log('Is Mark\'s BMI higher than John\'s ? ' + markHigherBMI);
+
+var markHigherBMI = BMIMark > BMIJohn;
 console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
-*/
 
 
 
@@ -196,7 +237,8 @@ if (BMIMark > BMIJohn) {
 /*****************************
 * Boolean logic
 */
-/*
+
+
 var firstName = 'John';
 var age = 20;
 
@@ -209,14 +251,32 @@ if (age < 13) {
 } else {
     console.log(firstName + ' is a man.');
 }
-*/
+
 
 
 
 /*****************************
 * The Ternary Operator and Switch Statements
 */
+
+var firstName = 'John';
+var age = 16;
+
+age >= 18 ? console.log(firstName + 'drinks beer.')
+: console.log(firstName + ' drinks juice.');
+
+var drink = age >= 18 ? 'beer' : 'juice';
+  console.log(drink);
+
+if (age >= 18) {
+   var drink = 'beer';
+} else {
+    var drink = 'juice';
+}
+
 /*
+
+
 var firstName = 'John';
 var age = 14;
 
@@ -233,6 +293,15 @@ console.log(drink);
 }
 
 // Switch statement
+
+var job = 'instructor' ;
+switch (job) {
+    case 'teacher' :
+        console.log(firstName + 'teaches kids how to code);
+        break;
+    case 'driver':
+
+}
 var job = 'instructor';
 switch (job) {
     case 'teacher':
@@ -274,6 +343,11 @@ switch (true) {
 // falsy values: undefined, null, 0, '', NaN
 // truthy values: NOT falsy values
 
+
+var height;
+if (height || height === 0) {
+    console.log("Variable is defined");
+}
 var height;
 
 height = 23;
@@ -295,6 +369,25 @@ if (height === '23') {
 /*****************************
 * CODING CHALLENGE 2
 */
+
+var scoreJohn = (89 + 120 + 103) / 3;
+var scoreMike = (117 + 94 + 123) / 3 ;
+var scoreMary =  (97 + 134 + 105) /3 ;
+
+
+console.log(scoreJohn, scoreMike, scoreMary);
+
+if ( scoreJohn > scoreMike && scoreJohn > scoreMary) {
+    console.log( 'John\'s team  win with' + scoreJohn + 'points');
+}
+
+if (scoreJohn > scoreMike) {
+    console.log('John\'s team wins with' + scoreJohn + 'points');
+} else if (scoreMike > scoreJohn) {
+    console.log('Mike\'s team wins with' + scoreMike + 'points')
+}else {
+    console.log( "There is a draw");
+}
 
 /*
 John and Mike both play basketball in different teams. In the latest 3 games, John's team scored 89, 120 and 103 points, while Mike's team scored 116, 94 and 123 points.
@@ -339,6 +432,10 @@ if (scoreJohn > scoreMike) {
 /*****************************
 * Functions
 */
+
+function  calculateAge(birthYear) {
+    return 2018 - birthYear;
+}
 /*
 function calculateAge(birthYear) {
     return 2018 - birthYear;
@@ -734,3 +831,4 @@ if (john.average > mark.average) {
     console.log(mark.fullName + '\'s family pays higher tips, with an average of $' + mark.average);
 }
 */
+
