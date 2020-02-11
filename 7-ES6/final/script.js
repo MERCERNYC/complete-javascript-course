@@ -90,7 +90,8 @@ console.log(c);
 /////////////////////////////////
 // Lecture: Strings
 
-/*
+
+
 let firstName = 'John';
 let lastName = 'Smith';
 const yearOfBirth = 1990;
@@ -103,7 +104,8 @@ function calcAge(year) {
 console.log('This is ' + firstName + ' ' + lastName + '. He was born in ' + yearOfBirth + '. Today, he is ' + calcAge(yearOfBirth) + ' years old.');
 
 // ES6
-console.log(`This is ${firstName} ${lastName}. He was born in ${yearOfBirth}. Today, he is ${calcAge(yearOfBirth)} years old.`);
+console.log (`This is a test with literals ${lastName}`.)
+console.log(`This is a${firstName} ${lastName}. He was born in ${yearOfBirth}. Today, he is ${calcAge(yearOfBirth)} years old.`);
 
 
 const n = `${firstName} ${lastName}`;
@@ -111,7 +113,7 @@ console.log(n.startsWith('j'));
 console.log(n.endsWith('Sm'));
 console.log(n.includes('oh'));
 console.log(`${firstName} `.repeat(5));
-*/
+
 
 
 
